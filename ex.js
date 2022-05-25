@@ -97,26 +97,23 @@ console.log(pontuacaoMaior(participanteA));
 4. Logo nosso líder tecnológico nos pede para criar essas duas funções geramos uma nova funcionalidade chamada competição que receberá os 3 participantes por parâmetros, e executará as duas funções criadas anteriormente para calcular as médias e pontuações mais altas de cada uma, e deve anunciar (mostrar pelo console) o vencedor de cada modalidade de pontuação.
 */
 
-function competicaoMedia(participanteA, participanteB, participanteC) {
+function competicao(participanteA, participanteB, participanteC) {
     if (pontuacaoMedia(participanteA) > pontuacaoMedia(participanteB) && pontuacaoMedia(participanteA) > pontuacaoMedia(participanteC)) {
-        return `${console.log(`Participante A vencedor com a maior média! ${pontuacaoMedia(participanteA)}`)}`;
+        `${console.log(`Participante A vencedor com a maior média! ${pontuacaoMedia(participanteA)}`)}`;
     } else if (pontuacaoMedia(participanteB) > pontuacaoMedia(participanteA) && pontuacaoMedia(participanteB) > pontuacaoMedia(participanteC)) {
-        return `${console.log(`Participante B vencedor com a maior média! ${pontuacaoMedia(participanteB)}`)}`;
+        `${console.log(`Participante B vencedor com a maior média! ${pontuacaoMedia(participanteB)}`)}`;
     } else {
-        return `${console.log(`Participante C vencedor com a maior média! ${pontuacaoMedia(participanteC)}`)}`;
+        `${console.log(`Participante C vencedor com a maior média! ${pontuacaoMedia(participanteC)}`)}`;
     };
-};
 
-competicaoMedia(participanteA, participanteB, participanteC);
-
-function competicaoMaior(participanteA, participanteB, participanteC) {
     if (pontuacaoMaior(participanteA) > pontuacaoMaior(participanteB) && pontuacaoMaior(participanteA) > pontuacaoMaior(participanteC)) {
-        return `${console.log(`Participante A vencedor com a maior pontuação! ${pontuacaoMaior(participanteA)}`)}`;
+        `${console.log(`Participante A vencedor com a maior pontuação! ${pontuacaoMaior(participanteA)}`)}`;
     } else if (pontuacaoMaior(participanteB) > pontuacaoMaior(participanteA) && pontuacaoMaior(participanteB) > pontuacaoMaior(participanteC)) {
-        return `${console.log(`Participante B vencedor com a maior pontuação! ${pontuacaoMaior(participanteB)}`)}`;
+        `${console.log(`Participante B vencedor com a maior pontuação! ${pontuacaoMaior(participanteB)}`)}`;
     } else {
-        return `${console.log(`Participante C vencedor com a maior pontuação! ${pontuacaoMaior(participanteC)}`)}`;
+        `${console.log(`Participante C vencedor com a maior pontuação! ${pontuacaoMaior(participanteC)}`)}`;
     };
 };
 
-competicaoMaior(participanteA, participanteB, participanteC);
+competicao(participanteA, participanteB, participanteC);
+
